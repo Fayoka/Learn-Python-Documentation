@@ -12,7 +12,11 @@ def main():
         
         
 def glossary_menu():
-    return
+    user_input_chosen_glossary = input("Write a programming you wanna explore (or enter to go back to main menu): ")
+    if (user_input_chosen_glossary == ""):
+        return
+    
+    
 def built_in_functions_menu():
     print("###")
     user_input_chosen_function = input("Write a built-in function you wanna explore (or enter to go back to main menu): ")
